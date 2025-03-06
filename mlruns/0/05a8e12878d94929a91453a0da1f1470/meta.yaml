@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/akshayy/mlflow/mlruns/0/05a8e12878d94929a91453a0da1f1470/artifacts
+end_time: 1741210079029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 05a8e12878d94929a91453a0da1f1470
+run_name: righteous-panda-532
+run_uuid: 05a8e12878d94929a91453a0da1f1470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741210079012
+status: 3
+tags: []
+user_id: akshayy
