@@ -1,1 +1,27 @@
+Check the current remote:
+git remote -v
 
+Output:
+origin  https://github.com/username/repository.git (fetch)
+origin  https://github.com/username/repository.git (push)
+
+Setting the correct URL:
+git remote set-url origin https://github.com/akshayy1597/mlflow.git
+
+Verify Again: 
+git remote -v
+
+Expected o/p:
+origin  https://github.com/akshayy1597/mlflow.git (fetch)
+origin  https://github.com/akshayy1597/mlflow.git (push)
+
+Ensure Local Commits Exist
+Check your local repo status:
+git status
+
+If there are uncommitted changes:
+git add .
+git commit -m "Initial commit"
+
+Try pushing again:
+git push -u origin main
